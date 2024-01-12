@@ -1,21 +1,21 @@
-.header{
-    width: 94vw;
+.header {
+    width: 96vw;
     height: 8vh;
     background-color: #6575A8;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3vw
+    padding: 0 2vw
 }
 
-.logo{
+.logo {
     width: 20vw;
 }
 
-.cartIcon{
+.cartIcon {
     transition: ease-in-out 0.1s;
 }
 
-.cartIcon:hover{
+.cartIcon:hover {
     transform: scale(1.1);
 }

@@ -1,8 +1,8 @@
 import {createBrowserRouter, Navigate} from "react-router-dom";
-import {MainPage} from "../pages/MainPage/MainPage";
-import {MainLayout} from "../layouts/MainLayout";
-import {ErrorPage} from "../pages/ErrorPage/ErrorPage";
-import {CartPage} from "../pages/CartPage/CartPage";
+
+import {MainLayout} from "../layouts";
+import {ErrorPage, MainPage} from "../pages";
+import {CartPage} from "../pages/CartPage";
 
 export const router = createBrowserRouter([
     {

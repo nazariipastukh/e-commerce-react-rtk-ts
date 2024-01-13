@@ -1,6 +1,6 @@
 .mainLayout {
     width: calc(100vw - 2 * 2);
-    padding: 3vh 2vw;
+    padding: 11vh 2vw 1vh 2vw;
     display: flex;
     justify-content: space-between;
 }

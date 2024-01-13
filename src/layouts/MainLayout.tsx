@@ -10,8 +10,13 @@ export const MainLayout = () => {
             <Header/>
 
             <section className={styles.mainLayout}>
-                <SideBarComponent/>
-                <Outlet/>
+                <section>
+                    <SideBarComponent/>
+                </section>
+
+                <section className={styles.content}>
+                    <Outlet/>
+                </section>
             </section>
         </>
     );

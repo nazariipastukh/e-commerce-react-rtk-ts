@@ -1,5 +1,7 @@
 .sideBar {
-    width: 20vw;
+    width: 14vw;
     border-right: 1px solid gainsboro;
     height: 86vh;
+    display: flex;
+    position: fixed;
 }

@@ -1,0 +1,10 @@
+.inputsWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paginationWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 3vh;
+}

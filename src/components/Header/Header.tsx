@@ -2,8 +2,8 @@ import {NavLink} from "react-router-dom";
 
 import styles from './Header.module.css'
 import logo from '../../assets/logo.jpg'
-import trolley from '../../assets/trolley.png'
 
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 export const Header = () => {
     return (
@@ -14,11 +14,9 @@ export const Header = () => {
                 </NavLink>
             </section>
 
-            <>
-                <NavLink to={'/cart'}>
-                    <img className={styles.cartIcon} src={trolley} alt={'cart'}/>
-                </NavLink>
-            </>
+            <NavLink to={'/cart'}>
+                <ShoppingCartOutlinedIcon fontSize={'large'} className={styles.cartIcon}/>
+            </NavLink>
         </header>
     );
 };

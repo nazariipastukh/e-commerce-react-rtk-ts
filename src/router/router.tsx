@@ -1,8 +1,7 @@
 import {createBrowserRouter, Navigate} from "react-router-dom";
 
 import {MainLayout} from "../layouts";
-import {ErrorPage, MainPage} from "../pages";
-import {CartPage} from "../pages/CartPage";
+import {ByCategoryPage, CartPage, ErrorPage, MainPage} from "../pages";
 
 export const router = createBrowserRouter([
     {
@@ -21,6 +20,10 @@ export const router = createBrowserRouter([
             {
                 path: '/cart',
                 element: <CartPage/>
+            },
+            {
+                path: '/category/:name',
+                element: <ByCategoryPage/>
             }
         ]
     }

@@ -1,0 +1,75 @@
+.card {
+    width: 21vw;
+    height: 72.5vh;
+    margin: 3vh 0 1vh 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    padding: 2vh 4vh 4vh 4vh;
+    transition: ease-in-out 0.1s;
+}
+
+.card:hover {
+    border: 1px solid #4096ff;
+    transform: scale(1.05);
+}
+
+.card img {
+    max-height: 40vh;
+    max-width: 15vw
+}
+
+.image {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22vh;
+}
+
+.price {
+    font-size: 25px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.title {
+    font-family: 'Archivo Black', sans-serif;
+    margin-bottom: 1vh;
+}
+
+.cardBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3vh;
+}
+
+button {
+    height: 5vh;
+    background-color: #FFFFFF;
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    color: #6575A8;
+}
+
+button:hover {
+    border: 1px solid #4096ff;
+    cursor: pointer;
+}
+
+.category {
+    text-decoration: none;
+    color: black;
+}
+
+.category:hover {
+    color: dimgrey;
+}

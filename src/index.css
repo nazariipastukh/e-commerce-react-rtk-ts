@@ -17,3 +17,24 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+    z-index: 10;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to top, #FFFFFF 0%, #6575A8 100%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6575A8;
+}
+
+.ant-input-search .ant-input-search-button {
+    width: 4vw;
+}

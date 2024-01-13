@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 
-import {productsService} from "../../services/productsService";
+import {productsService} from "../../services";
 import {ProductComponent} from "../Product";
 import styles from './List.module.css'
 

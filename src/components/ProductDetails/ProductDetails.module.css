@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    height: 75vh;
+}
+
+.wrapper img{
+    max-height: 70vh;
+    max-width: 25vw;
+}
+
+.textInfo{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    margin-right: 5vw;
+}
+
+.category {
+    margin: 3vh 0;
+}
+
+.description {
+
+}
+
+.buyInfo{
+    display: flex;
+    align-items: center;
+}

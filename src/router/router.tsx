@@ -2,6 +2,7 @@ import {createBrowserRouter, Navigate} from "react-router-dom";
 
 import {MainLayout} from "../layouts";
 import {ByCategoryPage, CartPage, ErrorPage, MainPage} from "../pages";
+import {ProductPage} from "../pages/ProductPage/ProductPage";
 
 export const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
             {
                 path: '/category/:name',
                 element: <ByCategoryPage/>
+            },
+            {
+                path: '/:category/:id',
+                element: <ProductPage/>
             }
         ]
     }

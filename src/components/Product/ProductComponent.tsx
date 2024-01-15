@@ -1,5 +1,5 @@
 import {FC} from "react";
-import {NavLink} from "react-router-dom";
+import {NavLink, useNavigate} from "react-router-dom";
 
 import {IProduct} from "../../interfaces/ProductInterface";
 import styles from './Product.module.css'
@@ -9,10 +9,12 @@ interface IProps {
 }
 
 export const ProductComponent: FC<IProps> = ({product}) => {
-    const {id, description, image, title, price, category} = product
+    const {id, image, title, price, category} = product
+
+    const navigate = useNavigate()
 
     return (
-        <section className={styles.card}>
+        <section className={styles.card} onClick={() => navigate(`/${category}/${id}`, {state: product})}>
             <section className={styles.image}>
                 <img src={image} alt={title}/>
             </section>

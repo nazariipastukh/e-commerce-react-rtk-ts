@@ -17,7 +17,7 @@ export const ProductDetails = () => {
                         {title}
                     </h2>
                     <p className={styles.category}>
-                        {category}
+                        {`${category[0].toUpperCase()}${category.slice(1)}`}
                     </p>
                     <p className={styles.description}>
                         {description}
